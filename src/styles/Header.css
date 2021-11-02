@@ -1,0 +1,36 @@
+header {
+    background-color: #ade7e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+  }
+  
+  header .logo {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  button{
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: #c6d57e;
+    padding: 5px 10px;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid #c6d57e;
+    border-radius: 10px;
+    color: aliceblue;
+  }
+  
+  button:hover{
+    background: burlywood;
+  }
+  
+  header .btn{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
